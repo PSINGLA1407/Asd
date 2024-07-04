@@ -15,8 +15,7 @@ This repository contains a deep learning model for recognizing emotions in indiv
 - [Evaluation](#evaluation)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
-
+- 
 ## Features
 
 - Emotion recognition using images
@@ -39,8 +38,8 @@ This repository contains a deep learning model for recognizing emotions in indiv
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/autism-emotion-recognition.git
-   cd autism-emotion-recognition
+   git clone https://github.com/PSINGLA1407/Asd.git
+   cd asd
    ```
 
 2. Create a virtual environment and activate it:
@@ -106,14 +105,6 @@ The model can be trained on any dataset containing labeled images of emotions. F
    python evaluate.py
    ```
 
-### Inference
-
-1. Use the trained model for inference on new images:
-
-   ```bash
-   python inference.py --image path/to/image.jpg
-   ```
-
 ## Training
 
 The training script `train.py` allows you to train the model from scratch or fine-tune a pre-trained model. You can configure the training parameters such as learning rate, batch size, and number of epochs in the `config.py` file.
@@ -129,10 +120,6 @@ The model achieves high accuracy in recognizing emotions in individuals with aut
 ## Contributing
 
 Contributions are welcome! Please read the [CONTRIBUTING](CONTRIBUTING.md) guidelines before submitting a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
